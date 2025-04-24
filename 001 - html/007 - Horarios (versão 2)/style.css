@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(4, 0, 39);
+}
+table {
+    border: 5px solid rgb(102, 102, 102); /* define a borda da tabela com cor */
+    border-radius: 10px; /* arredonda os cantos */
+    border-collapse: separate; /* necessário para arredondar os cantos */
+    border-spacing: 0; /* evita espaços entre as células */
+    overflow: hidden; /* evita que o conteúdo ultrapasse os cantos */
+}
+
+table th,
+table td {
+    border: 2px solid rgb(119, 119, 119);
+    padding: 5px;
+    border-style: ridge;
+}
+#FundoDaTabela{
+    background-color: black;
+    border-style: ridge;
+    border-width: 5px;
+}
+#titulo{
+    color:rgb(197, 197, 197) ;
+}
+#cabecalho{
+    color: rgb(197, 197, 197);
+}
+#SEG{
+    background-color:rgb(232, 232, 232);
+}
+#TER{
+ background-color: rgb(255, 240, 240);
+}
+#QUA{
+    background-color:rgb(232, 232, 232);
+}
+#QUI{
+    background-color: rgb(255, 240, 240);
+}
+#SEX{
+    background-color:rgb(232, 232, 232);
+}
